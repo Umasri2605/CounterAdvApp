@@ -22,7 +22,7 @@ var greeting=useCallback(function(){
   return (
     <div className='border border-2 border-info m-2 p-2'>
      <h1>Counter Application</h1>
-     {/* <Counter></Counter>  */}
+     <Counter></Counter> 
      <h2>UseMemo React Component</h2>
      <input type="text" onChange={(e)=>{
       setMyname(e.target.value)
